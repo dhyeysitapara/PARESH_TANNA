@@ -12,13 +12,12 @@ namespace PARESH_TANNA
         static void Main(string[] args)
         {
             //NumberFormatInfo OF ROW
-            for(int i =5 ;i >= 0; i--)
+            for(int i =1 ;i <=5; i++)
             {
                 //NumberFormatInfo of COLUMNS
-                for(int j =0 ;j <= i; j++)
+                for(int j = 1;j <= i; j++)
                 {
-                    Console.Write("*");
-                    
+                    Console.Write(j);
                 }
                 Console.WriteLine();
             }
