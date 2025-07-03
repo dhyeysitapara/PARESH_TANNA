@@ -12,7 +12,7 @@ namespace PARESH_TANNA
         static void Main(string[] args)
         {
             //NumberFormatInfo OF ROW
-            for(int i =5;i >= 0; i--)
+            for(int i =5 ;i >= 0; i--)
             {
                 //NumberFormatInfo of COLUMNS
                 for(int j =0 ;j <= i; j++)
